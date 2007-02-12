@@ -1,5 +1,5 @@
 Summary:	POSIX Hak - tools to manipulate NWN data from the commandline
-Summary(pl):	POSIX Hak - narzêdzia do obróbki danych NWN z linii poleceñ
+Summary(pl.UTF-8):   POSIX Hak - narzÄ™dzia do obrÃ³bki danych NWN z linii poleceÅ„
 Name:		posix-hak
 Version:	0
 Release:	1
@@ -19,14 +19,14 @@ thing needed will be some sort of MDL import/export for a free modeler
 and maybe a GUI map editor, as it seems to be really hard to get them
 right with vim.
 
-%description -l pl
-Posix-hak zawiera narzêdzia do obróbki danych NWN z linii poleceñ.
-Aktualnie potrafi pakowaæ i rozpakowywaæ pliki HAK oraz modu³y, oraz
-wyci±gaæ (ale jeszcze nie kompilowaæ) ITP i pokrewne formaty. Kiedy to
-bêdzie gotowe, sprawa bêdzie wygl±daæ lepiej. Potem jedyn± potrzebn±
-rzecz± bêdzie jaki¶ rodzaj importu/eksportu MDL do wolnodostêpnego
-modelera i byæ mo¿e graficzny edytor map, co wydaje siê naprawdê
-trudne do uzyskania przy u¿yciu vima.
+%description -l pl.UTF-8
+Posix-hak zawiera narzÄ™dzia do obrÃ³bki danych NWN z linii poleceÅ„.
+Aktualnie potrafi pakowaÄ‡ i rozpakowywaÄ‡ pliki HAK oraz moduÅ‚y, oraz
+wyciÄ…gaÄ‡ (ale jeszcze nie kompilowaÄ‡) ITP i pokrewne formaty. Kiedy to
+bÄ™dzie gotowe, sprawa bÄ™dzie wyglÄ…daÄ‡ lepiej. Potem jedynÄ… potrzebnÄ…
+rzeczÄ… bÄ™dzie jakiÅ› rodzaj importu/eksportu MDL do wolnodostÄ™pnego
+modelera i byÄ‡ moÅ¼e graficzny edytor map, co wydaje siÄ™ naprawdÄ™
+trudne do uzyskania przy uÅ¼yciu vima.
 
 %prep
 %setup -q -n %{name}
