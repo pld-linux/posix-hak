@@ -1,5 +1,5 @@
 Summary:	POSIX Hak - tools to manipulate NWN data from the commandline
-Summary(pl.UTF-8):   POSIX Hak - narzędzia do obróbki danych NWN z linii poleceń
+Summary(pl.UTF-8):	POSIX Hak - narzędzia do obróbki danych NWN z linii poleceń
 Name:		posix-hak
 Version:	0
 Release:	1
