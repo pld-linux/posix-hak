@@ -5,9 +5,9 @@ Version:	0
 Release:	1
 License:	GPL v2
 Group:		Applications/Games
-Source0:	http://www.ultrasoul.com/%7Eleaf/%{name}.tar.gz
+Source0:	http://leaf.ultrasoul.com/%{name}.tar.gz
 # Source0-md5	56f3abe332fc8937ec3d7726010f04da
-URL:		http://www.ultrasoul.com/~leaf/
+URL:		http://leaf.ultrasoul.com/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -50,4 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/hak
+%attr(755,root,root) %{_bindir}/itp
+%attr(755,root,root) %{_bindir}/unhak
+%attr(755,root,root) %{_bindir}/unitp
